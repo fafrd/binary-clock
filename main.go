@@ -11,7 +11,7 @@ import (
 func main() {
 	err := termbox.Init()
 	if err != nil {
-			panic(err)
+		panic(err)
 	}
 	defer os.Exit(0)
 	defer termbox.Close()
